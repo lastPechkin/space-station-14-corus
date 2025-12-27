@@ -78006,6 +78006,8 @@ entities:
       parent: 1
     - type: SlotMachine
       godPotPrize: ClothingHeadHatCatEarsValid
+      spinCost: 1000
+      smallPrizeAmount: 1000
       mediumPrizeAmount: 5000
       bigPrizeAmount: 25000
       jackPotPrizeAmount: 100000
@@ -78021,10 +78023,9 @@ entities:
       parent: 1
     - type: SlotMachine
       smallWinChance: 0.2
-      mediumWinChance: 0.1
       godPotPrize: VaporizeImplanter
       smallPrizeAmount: 100000
-      jackPotPrizeAmount: 10000000
+      jackPotPrizeAmount: 1000000
 - proto: SmallPresentBox
   entities:
   - uid: 9869
